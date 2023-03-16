@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+/* Paleta de cores
+    Verde: #49a09d
+    Lilás: #5f2c82
+*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background-color: #5f2c82;
+}
+
+section#log {
+    width: 55vw;
+    height: 84vh;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.541);
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div#img {
+    height: 40%;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    background: url(../Imagens/imagem_login.jpg) center center;
+    background-size: cover; 
+
+    /* left: 50%;
+    top: 50%;
+    transform: translate(-3.6%, -5.3%); */
+}
+
+div#form {
+    padding: 7px;
+    margin: 7px;
+    font-size: 0.8em;
+    line-height: 1.3em;
+}
+
+div#form > h1 {
+    font-size: 1.8em;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div label > span {
+    background-color: #5f2c82;
+    color: white;
+    width: 50vw;
+    height: 40px;
+    padding-top: 15px;
+}
+
+form > p > input#isenha {
+    background-color: #80e5e2d8;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+
+    position: absolute;
+    top: 73.5%;
+    left: 16%;
+}   
+
+form > p > input#iemail {
+    background-color: #80e5e2d8;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+
+    position: absolute;
+    top: 63%;
+    left: 16%;
+}
