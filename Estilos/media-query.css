@@ -1,12 +1,15 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {     
+    /* CONFIGURAÇÃO PARA TABLET */
+
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
     section#log {
         width: 80vw;
+        height: 300px;
     }
 
     section#log > div#img {
@@ -19,15 +22,22 @@
         float: right;
         width: 70%;
     }
+
+    div#form > h1 {
+        font-size: 1.6em;
+    }
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:992px) { 
+    /* CONFIGURAÇÃO PARA DESKTOP */
+
     body {
         background-image: linear-gradient(to top, #49a09d,#5f2c82);
     }
 
     section#log {
         width: 950px;
+        height: 380px;
     }
 
     section#log > div#img {
@@ -44,8 +54,13 @@
     div#form > h1 {
         font-size: 2em;
     }
-    
+
     div#form > p {
         font-size: 1.2em;
+        margin: 20px 0px;
+    }
+
+    div.campo > input {
+        transform: translateY(-12.6px);
     }
 }
